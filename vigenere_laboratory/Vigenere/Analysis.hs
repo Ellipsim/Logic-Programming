@@ -4,7 +4,7 @@ module Vigenere.Analysis
   ) where
 
 import Vigenere.Utils (normalizarTexto)
-import Data.List (group, sort)
+import Data.List (group, sort, maximumBy, transpose)
 
 -- Índice de coincidencia (IC)
 indiceCoincidencia :: String -> Double
