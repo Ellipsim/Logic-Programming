@@ -1,4 +1,4 @@
---import Data.List (sort)
+import Data.List (sort)
 
 -- Comprobar si tres puntos conforman un triángulo mediante la propiedad de la desigualdad triangular
 ternasEsTriangulo :: Double -> Double -> Double -> Bool
